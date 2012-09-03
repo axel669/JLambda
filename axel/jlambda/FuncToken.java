@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 import java.util.HashMap;
 
@@ -8,7 +8,7 @@ public class FuncToken extends Token{
 	public SArray args;
 	public function_name fncode;
 	
-	public enum function_name{
+	/*public static enum function_name{
 		EXP,
 		SIN,COS,TAN,CSC,SEC,COT,
 		SINH,COSH,TANH,CSCH,SECH,COTH,
@@ -19,7 +19,7 @@ public class FuncToken extends Token{
 		ASIN,ACOS,ATAN,ACSC,ASEC,ACOT,
 		ASINH,ACOSH,ATANH,ACSCH,ASECH,ACOTH,
 		GAMMA
-	};
+	};*/
 	public static HashMap<String,function_name> func_code=new HashMap<String,function_name>(){
 		{
 			put("exp",function_name.EXP);

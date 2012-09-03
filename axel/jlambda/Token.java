@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 public class Token {
 	enum Type{number,operator,variable,function};

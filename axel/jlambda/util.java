@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 public class util{
 	public static final double pi=Math.PI;

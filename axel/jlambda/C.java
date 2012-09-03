@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 public class C {
 	public static void out(Object... args){

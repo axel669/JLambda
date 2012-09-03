@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 public class VarToken extends Token{
 	public String name;

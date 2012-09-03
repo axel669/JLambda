@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 import java.util.*;
 

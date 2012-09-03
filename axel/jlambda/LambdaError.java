@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 @SuppressWarnings("serial")
 public class LambdaError extends Error{

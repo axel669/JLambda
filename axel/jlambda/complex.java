@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 import java.text.DecimalFormat;
 
@@ -118,7 +118,7 @@ public class complex{
 		return r.pow(y).mul(e.pow(angle.mul(y)));
 	}
 	public complex fac(){
-		if(imag==0 && real>=0 && real<=170)
+		if(imag==0 && real>=0 && real<=170 && Math.round(real)==real)
 			return new complex(util.factorial(real));
 		return util.gamma(new complex(real+1,imag));
 	}

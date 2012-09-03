@@ -1,4 +1,4 @@
-package axel.lambda;
+package axel.jlambda;
 
 public class ParenToken extends Token{
 	public Token arg;
